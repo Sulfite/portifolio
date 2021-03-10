@@ -7,9 +7,9 @@ import styles from '../styles/components/Home.module.css';
 // import SideBar from '../components/SideBar';
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <SideBar />
-    </div>
-  )
+	return (
+		<div className={styles.container}>
+			<SideBar />
+		</div>
+	)
 }
