@@ -13,7 +13,7 @@ export function SideBar() {
             <div className={styles.menu}>
                 <a href="">Bibliografia</a>
                 <a href="">Escola</a>
-                <a href="">Experiencias</a>
+                <a href="">Experiências</a>
             </div>
 
             <div className={styles.socialNetwork}>
