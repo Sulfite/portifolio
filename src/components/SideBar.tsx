@@ -11,19 +11,28 @@ export function SideBar() {
             <p>Vinícius Moreira Hungaro</p>
 
             <div className={styles.menu}>
-                <a href="">Bibliografia</a>
-                <a href="">Escola</a>
-                <a href="">Experiencias</a>
+                <a href="">
+                    Bibliografia
+                    <span></span>
+                </a>
+                <a href="">
+                    Escola
+                    <span></span>
+                </a>
+                <a href="">
+                    Experiências
+                    <span></span>
+                </a>
             </div>
 
             <div className={styles.socialNetwork}>
-                <a href="">
+                <a href={"//www.instagram.com/vini_hungaro/"} target='_blank'>
                     <FontAwesomeIcon icon={faInstagramSquare} />
                 </a>
-                <a href="">
+                <a href={"//www.facebook.com/vinicius.moreirahungaro"} target='_blank' >
                     <FontAwesomeIcon icon={faFacebookSquare} />
                 </a>
-                <a href="">
+                <a href={"//github.com/Sulfite"}  target='_blank'>
                     <FontAwesomeIcon icon={faGithubSquare} />
                 </a>
             </div>
